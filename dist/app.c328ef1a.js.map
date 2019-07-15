@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.js"],"names":["run","console","log"],"mappings":"AAAA,IAAMA,GAAG,GAAG,SAANA,GAAM,GAAM;AACjBC,EAAAA,OAAO,CAACC,GAAR,CAAY,SAAZ;AACA,CAFD","file":"app.c328ef1a.js","sourceRoot":"..","sourcesContent":["const run = () => {\n\tconsole.log(\"running\");\n}\n"]}

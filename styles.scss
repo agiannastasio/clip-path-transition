@@ -1,0 +1,43 @@
+body {
+  font: 400 120%/1.5 sans-serif;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: white;
+  margin: 0;
+  height: 100vh;
+}
+
+.contents {
+  position: relative;
+  background-color: #9A4C95;
+  padding: 1em;
+  border-radius: 10px;
+  width: 500px;
+  clip-path: circle(1em at 96% 9%);
+  transition: all .5s ease-in-out;
+
+  &:hover {
+    clip-path: circle(75%);
+    background-color: #F08CAE;
+  }
+  
+  &::after {
+    position: absolute;
+    font-size: 2em;
+    text-align: center;
+    content: "+";
+    display: block;
+    top: -12px;
+    right: 11px;
+    color: #fff;
+  }
+  h1 {
+    color: white;
+    margin: 0;
+  }
+  p {
+    color: white;
+  }
+}
